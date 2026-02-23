@@ -1,0 +1,42 @@
+# Compiled files
+*.class
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+.sts4-cache
+
+# VS Code
+.vscode/
+.history/
+
+# Logs
+logs/
+*.log
+
+# Test reports
+test-output/
+surefire-reports/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Application properties
+application-local.properties
+application-dev.properties
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# GitHub directory (except workflows)
+.github/*
+!.github/workflows
